@@ -17,7 +17,7 @@ int main(int argc, char *argv[]) {
 	
 	
 	printf("%s (%i)\n",scr, i);
-	
+	printf("%i",strlen(scr));
 	
 	return 0;
 }
