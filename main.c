@@ -10,11 +10,12 @@ int main(int argc, char *argv[]) {
 	char filename[100];
 	char input[100];
 	char word[100];
-	fp = fopen(filename,"r");
+	
 	
 	printf("file name : \n");
 	scanf("%s", filename);
 	
+	fp = fopen(filename,"r");
 	
 	printf("word : \n");
 	scanf("%s",word);
