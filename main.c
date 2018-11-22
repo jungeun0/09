@@ -9,12 +9,14 @@ int main(int argc, char *argv[]) {
 	char dst[100];
 	int i;
 	
-	for(i=0;scr[i] != '\0';i++){
-		dst[i] = scr[i];
+	while(scr[i] != '\0'){
+		
+		i++;
+		
 	}
-	dst[i]= '\0';
 	
-	printf("%s\n",dst);
+	
+	printf("%s (%i)\n",scr, i);
 	
 	
 	return 0;
